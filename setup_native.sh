@@ -4,11 +4,10 @@
 
 echo "=== Configurando Ambiente: Versão Nativa Linux ==="
 
-BINARIO="./bin/jogo_linux" 
+BINARIO="./linux/dream" 
 
 if [ ! -f "$BINARIO" ]; then
     echo "Erro: O executável '$BINARIO' não foi encontrado."
-    echo "Certifique-se de que exportou o jogo no Picotron para a pasta correta."
     exit 1
 fi
 
